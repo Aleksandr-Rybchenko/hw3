@@ -1,0 +1,189 @@
+span{
+    color: rgb(18, 152, 214);
+}
+.link-logo{
+    color: black;
+    text-decoration: none;
+}
+.header{
+    margin: 0 auto;
+    width: 1480px;
+    padding: 63px 0 0 98px;
+    
+}
+.h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 94px;
+    color: #000000;
+}
+.items a{
+    display: flex;
+    height: 72px;
+    align-items: center;
+    padding: 0 33px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.items:hover{
+    background-color: #222F3A;
+    height: 72px;
+    display: inline-flex;
+    align-items: center;
+}
+.list{
+    display: inline-flex;
+    width: 1283px;
+    height: 72px;
+    background-color: #35444F;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    width: 1283px;
+    padding: 38px 0 0 0;
+}
+
+
+/* Main start */
+.container{
+    width: 1480px;
+    padding: 48px 0 0 98px;
+    display: flex;
+}
+
+.items_left .link_left{
+    color: rgb(12, 13, 14);
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 27px;
+    color: #485863;
+}
+.content_1{
+    width: 344px;
+    height: 399px;
+    border: 1px solid black;
+}
+.items_left{
+    padding: 26px 0 26.4px 44px;
+    transition: 0.7s;
+}
+.items_left:hover{
+    padding: 26px 0 26.4px 64px;
+    background-color: #DBDBDB;
+    
+}
+
+
+
+/* content_2 */
+
+.content_2{
+    width: 885px;
+    height: 529px;
+    border: 1px solid black;
+    margin-left: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_content{
+    width: 320px;
+    height: 381px;
+}
+.logo-img{
+   width: 100%; 
+   transition: 1s;
+}
+.logo-img:hover{
+    width: 102%;
+    transform: scale(1.2);
+}
+
+/* main 2 */
+
+.main_2{
+    max-width: 1480px;
+    margin: 0 auto;
+
+}
+
+.text{
+    padding: 37px 99px 0 496px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+.text_2{
+    padding: 34px 99px 0 496px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C2C2C;
+}
+
+/* footer */
+
+.footer{
+    width: 1480px;
+    display: flex;
+    margin: 0 auto;
+    padding: 54px 100px 30px 100px;
+}
+.menu-footer{
+    width: 1280px;
+    height: 69px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(99, 105, 110, 0.48);
+    padding-left: 40px;
+}
+.list-footer{
+    display: inline-flex;
+}
+.link-footer{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 28px;
+    padding-left: 30px;
+    transition: 0.5s;
+}
+.link-footer:hover{
+    color: cornflowerblue;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+.p-footer{
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    padding-right: 40px;
+}
+
+
+/* я не нашел как сделать чтоб ссылка подчеркивалась с отступом вниз как на макете */
